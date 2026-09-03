@@ -10,12 +10,6 @@
 
 I am a Physics and Computer Science undergraduate interested in how detector measurements become defensible physical inferences. My work combines mathematical modelling, uncertainty-aware computation, careful validation, and software that can eventually make a scientific method usable by other people.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-cosmic-v2.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-cosmic-v2-light.png">
-  <img src="assets/profile-banner-cosmic-v2-light.png" width="100%" alt="An artistic astrophysics panorama with a cosmic ray producing an air shower above a surface-detector array, accompanied by atomic, spectral, and reconstruction motifs.">
-</picture>
-
 ## Current research: cosmic-ray direction reconstruction
 
 > How accurately can an air shower's arrival direction be reconstructed from surface-detector positions, timing measurements, and timing uncertainties - and can carefully validated corrections improve on a transparent physics baseline?
@@ -54,6 +48,18 @@ A four-person hackathon project presenting exoplanet-model evaluation through an
 **Team methods:** React, Vite, FastAPI, scikit-learn, data visualization  
 **Evidence:** [project documentation](https://github.com/abdul-samad021/spaceapps-exoplanets/blob/main/README.md) · [working demo](https://spaceapps-exoplanets.vercel.app/)
 
+## On the horizon
+
+### Quasar and AGN spectral machine learning · planning and study phase
+
+> Can a leakage-controlled, spectrum-only pipeline identify optically selected quasars from SDSS spectra while remaining reliable across signal-to-noise and redshift?
+
+I am currently building the astrophysics and data-method foundation for this future project: how AGN and quasars are related, how spectral lines and redshift appear in observed wavelengths, how SDSS represents flux, inverse variance, and pixel masks, and how to prevent catalogue and repeated-object leakage.
+
+The project has **not started yet**, so I make no dataset, model, or result claim. The planned path begins with a bounded feasibility sample and an interpretable PCA plus logistic-regression baseline; only then would I compare nonlinear models, calibration, subgroup reliability, and physically bounded wavelength-occlusion tests.
+
+**Longer-term direction:** a calibrated, uncertainty-aware spectrum viewer and inference service that flags unsupported inputs and publishes its data scope, model card, and limitations.
+
 ## Computational toolkit
 
 - **Scientific computing:** Python, NumPy, SciPy, pandas, Matplotlib, Jupyter
@@ -73,12 +79,4 @@ Astrophysics · particle astrophysics · detector data · computational modellin
 - Recover known synthetic truth before interpreting real data.
 - Treat optimizer failures and weak geometry as results to diagnose, not cases to hide.
 - Prefer reproducible experiments and held-out evidence to impressive-looking metrics.
-
-<details>
-<summary><strong>Next research directions</strong></summary>
-
-- **Quasar and AGN spectral ML:** planned future research; no implementation or result is claimed yet.
-- **Selected computational-physics coursework:** pending curation and an academic-integrity and redistribution review before anything is made public.
-
-</details>
 
