@@ -1,13 +1,7 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-cosmic-v2.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-cosmic-v2-light.png">
-  <img src="assets/profile-banner-cosmic-v2-light.png" width="100%" alt="An artistic astrophysics panorama with a cosmic ray producing an air shower above a surface-detector array, accompanied by atomic, spectral, and reconstruction motifs.">
-</picture>
+<p align="center">
+  <img src="assets/social-preview-cosmic-v2.png" width="100%" alt="Muhammad Samad Mahar — Physics × Computer Science — From detector timing to defensible physical inference — University of Victoria, over an artistic cosmic-ray air-shower scene.">
+</p>
 
-<h1 align="center">Muhammad Samad Mahar</h1>
-
-<p align="center"><strong>Physics × Computer Science at the University of Victoria</strong></p>
-<p align="center">Physics-first computational research · validated numerical methods · reliable scientific software</p>
 <p align="center">
   <a href="mailto:mmahar@uvic.ca">mmahar@uvic.ca</a> ·
   <a href="https://www.linkedin.com/in/abdul-samad-mahar-4a5a00318">LinkedIn</a> ·
@@ -15,6 +9,12 @@
 </p>
 
 I am a Physics and Computer Science undergraduate interested in how detector measurements become defensible physical inferences. My work combines mathematical modelling, uncertainty-aware computation, careful validation, and software that can eventually make a scientific method usable by other people.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-cosmic-v2.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/profile-banner-cosmic-v2-light.png">
+  <img src="assets/profile-banner-cosmic-v2-light.png" width="100%" alt="An artistic astrophysics panorama with a cosmic ray producing an air shower above a surface-detector array, accompanied by atomic, spectral, and reconstruction motifs.">
+</picture>
 
 ## Current research: cosmic-ray direction reconstruction
 
