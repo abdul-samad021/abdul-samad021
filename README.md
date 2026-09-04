@@ -8,6 +8,10 @@
   Victoria, BC, Canada
 </p>
 
+<p align="center">
+  <strong><a href="https://github.com/abdul-samad021/abdul-samad021/blob/main/documents/Muhammad_Samad_Mahar_Resume.pdf">View résumé (PDF)</a></strong>
+</p>
+
 I am a Physics and Computer Science undergraduate interested in how detector measurements become defensible physical inferences. My work combines mathematical modelling, uncertainty-aware computation, careful validation, and software that can eventually make a scientific method usable by other people.
 
 ## Current research: cosmic-ray direction reconstruction
